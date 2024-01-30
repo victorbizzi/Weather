@@ -4,7 +4,7 @@ from randomCity import get_random_capital_city
 from randomCity import capital_city
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = open('api_key.txt', 'r').read()
+API_KEY = open('.gitignore', 'r').read()
 CITY = capital_city
 
 def kelvinToCelsiusFahrenheit(kelvin):
